@@ -33,3 +33,26 @@ Change Data Type >> Right click on the column >> select the change type >> you c
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(76).png)
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(77).png)
 
+## Transformation: 4
+
+## Split the column & Clear the unwanted spaces:
+
+Land the Power Query >> click the column >> Click on Split column >> (.) in the Select or Enter delimeter >> Select each occurrence of the delimeter >> Automatically Generated.
+Select the column >> 
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(78).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(79).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(80).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(81).png)
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(82).png)
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(83).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(84).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(85).png)
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(86).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(87).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(88).png)
+
+
