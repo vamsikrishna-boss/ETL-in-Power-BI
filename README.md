@@ -51,8 +51,85 @@ Select the column >>
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(84).png)
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(85).png)
 
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(86).png)
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(87).png)
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(88).png)
+## Transformation: 5
+
+## How to derive a column in Power BI:
+
+Land on Power Query >> Go to Add Column Tab >> Click on the Custom Column >> Give Column Name what you want >> Write the Formula( =[Category name] & “##” &[Item Name] >> Click OK.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(89).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(90).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(91).png)
+
+## Transformation: 6
+
+## How to Create a column Based On Condition In Power BI:
+
+Land on Power Query >> Go to Add Column Tab >> Click on the Conditional Column >> Give the condition what you want >> Click OK.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(91).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(92).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(93).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(94).png)
+
+## Transformation: 7
+
+## How to Append/Combined Multiple Data Into Single table:
+
+Land on Power Query >> See which tables are combined >> Click on the Append Queries >> Select Option >> Table  1 and Table 2 >> Click on OK
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(95).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(96).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(97).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(98).png)
+
+## Transformation: 8
+
+## How to Union / Union All Operation IN Power BI:
+
+Union : Combined Two tables.
+
+Union ALL: Combined two or more tables with Duplicates.
+
+Land the Power Query >> Select the All Columns >> Right Click >> Select the Remove Duplicates >> Automatically generated.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(99).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(100).png)
+
+
+## Transformation: 9
+
+## How to Join Tables / Merge Tables IN Power BI (Power Query) LEFT,RIGHT,INNER,joins
+
+Land on the Power Query >> See the two tables what you have combined >> Click on the Merge Queries >> Select the merge queries as New >> Select the table Names >>Select the columns >> Select the join kind >> Click ok
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(101).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(102).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(103).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(104).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(105).png)
+
+## Transformation: 10
+
+## How to GROUP BY IN Power BI: (Power Query):
+
+Land on Power BI >> See the which table you want Group by select that table >> in side select the columns >> right click >>Select the Group BY >> New column name& Operation >> Click Ok.Automatically Generated.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(106).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(107).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(108).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(109).png)
+
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(110).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(111).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(112).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(113).png)
+
+
+
+
+
+
 
 
