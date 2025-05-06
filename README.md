@@ -173,22 +173,30 @@ It’s better to the un pivot the column >> Select the First Column >> Right Cli
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(131).png)
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(132).png)
 
-## Transformation: 13
+## Transformation: 14
 
-## How to Split the comma DELIMITED COLUMN Cell Into Multiple Rows:
+## How to enter the data in Table:
 
-First we landed in the power query >> Select the column >> Right click >> Spllit the column >> by Delimiter >> Comma under Select or Enter Delimiter >> Click OK.
+First You have to see the data >> copy that data >> Go to Power BI >> Enter the data >> Select and Paste it hear.Automatically Table will Updated. 
 
-It’s better to the un pivot the column >> Select the First Column >> Right Click >>Unpivot the Other Columns.
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(133).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(134).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(135).png)
 
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(126).png)
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(127).png)
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(128).png)
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(129).png)
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(130).png)
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(131).png)
-![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(132).png)
+## Transformation: 15
 
+## Data Preview Option (Data Quality Checks):
+
+## Column Quality, Profiles, Distributions 
+
+Land the Power Query >> go to View tab >> and check the Each option and the Table. 
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(136).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(137).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(138).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(139).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(140).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(141).png)
 
 
 
