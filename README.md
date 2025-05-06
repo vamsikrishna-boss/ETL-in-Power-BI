@@ -126,6 +126,69 @@ Land on Power BI >> See the which table you want Group by select that table >> i
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(112).png)
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(113).png)
 
+## Transformation: 11
+
+## How to Sort Month Names/Day Of Week Chronologically In Power BI:
+
+First we will go to Power Query >> Duplicate column of the Order date >> under order date right click >> Transform >> Month>> click the month. 
+
+Again click the drop-down under the column >> Click on the learn more.
+
+Go to click on Visual >> Click the what was created the Click that column >> Sort by column >> Click the newly created column.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(114).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(115).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(116).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(117).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(118).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(119).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(120).png)
+
+## Transformation: 12
+
+## How to Find AGE From BirthDate column (Power Query):
+
+First we will go to Power Query >> Select the Date of Birth Table >> Select the Column >> click the Add column Tab >> Select the Date feature >> click Age >> again you can click on the Duration option >> Another Column was updated >> again you can click on Round Up >> then again another Age column was created Age Wise.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(121).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(122).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(123).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(124).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(125).png)
+
+
+## Transformation: 13
+
+## How to Split the comma DELIMITED COLUMN Cell Into Multiple Rows:
+
+First we landed in the power query >> Select the column >> Right click >> Spllit the column >> by Delimiter >> Comma under Select or Enter Delimiter >> Click OK.
+
+It’s better to the un pivot the column >> Select the First Column >> Right Click >>Unpivot the Other Columns.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(126).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(127).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(128).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(129).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(130).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(131).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(132).png)
+
+## Transformation: 13
+
+## How to Split the comma DELIMITED COLUMN Cell Into Multiple Rows:
+
+First we landed in the power query >> Select the column >> Right click >> Spllit the column >> by Delimiter >> Comma under Select or Enter Delimiter >> Click OK.
+
+It’s better to the un pivot the column >> Select the First Column >> Right Click >>Unpivot the Other Columns.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(126).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(127).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(128).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(129).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(130).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(131).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(132).png)
+
 
 
 
