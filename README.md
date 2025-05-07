@@ -198,6 +198,147 @@ Land the Power Query >> go to View tab >> and check the Each option and the Tabl
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(140).png)
 ![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(141).png)
 
+## Transformation: 16
+
+## How to Handle Nulls / Blanks in Power Query::
+
+Step:1
+
+Landing the power query >> observer which rows are null & which rows are blanks >> then you can select customer region >> if you have blank values >> you can click the right >> trim >> again you can select customer region >> Replace values >>In the first you don’t mention anything second box you have to mention “null” >> click ok >>Automatically replaced the with null in blank boxes.
+
+Step:2
+
+You can find out the null and blank values: Write the condition:
+Land on the power query >> go to Add column >> Click the Custome column >> Write the condition : (=if ([Customer Region] = null) then 1 else 0) >> click ok >> Automatically generated Another column for value and nulls.
+
+Step:3
+
+Land on the power query >> go to Add column >> Click the Custome column >> Write the condition : (= if [Customer Region] = null then “Others” 
+                            Else
+                       If (Text.Contains([Customer Region],”o”)) then “Cat 1” else “Others”
+Examples:
+        
+              (Text.Contains([Customer Region], "o")
+
+              This checks if the column Customer Region contains the letter o (case-sensitive by default).
+
+         Example:
+
+             "North" → contains "o" → returns true
+
+             "East" → does not contain "o" → returns false)
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(142).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(143).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(144).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(145).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(146).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(147).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(148).png)
+
+## Transformation: 17
+
+## Query Folding:
+
+Query folding is ntg but generate a query that query statement to retrive and transform the source data.
+Adv: When you have import mode Data Refresh very quickly.
+     Direct query and Dual Stroage Based on the Query Foldinng.
+
+Ex: When you have Used Sql Server that time you need to Extract the data from SQL Server to Power BI that time You can land on power Query Editor Window >> You need to see the Applied steps and Select the Left Side Table and inside Applied Steps Right Side Seeting Symbo in Navigation option You can right click on the Navigation option You Can See Enable "View Native Query" option Then It is Query Folding other Wise That is Not Query Folding.
+
+Real Ex:
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(149).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(150).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(151).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(152).png)
+
+## Transformation: 18
+
+## How to Change the Existing DataSource (File / Database):
+## How to Modify Existing Connection String In Power BI
+## How to unLoad the Table in Power BI:
+
+First you need to Lan on Power BI >> Transform Data >> Data Source Settings >> Click the Change Data Source Option >> Keep the Server And Database >> Click OK >> Automatically Updated and Loaded The Database.
+
+First Landed the Power Query Editor Window >> Select the table >> Click the Advanced Option >> You need to change the Source Path >> Click OK >> Automatically Changed The path.
+
+First land the Power Query Editor Window >> Select the Table >> Right Click on the table >> UnCheck the Enable Load >> Automatically That Table is Not Loaded.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(153).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(154).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(155).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(156).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(157).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(158).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(159).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(160).png)
+
+## Transformation: 19
+
+## Column From Example Column:
+
+Land the Power Query >> Select the table >> Click the Add Column >> Again Click the Column From Examples >> Write what you want you can type >> Click OK >> Automatically Column Will Updated.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(161).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(162).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(163).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(164).png)
+
+## Transformation: 20
+
+## Existing column inside space:
+
+Land the Power Query >> Select the table >> Click the Add Column >> Write the Codition "Text.Combine({Text.Start([Category name], 3), " ", Text.Middle([Category name], 3)})" >> Click OK >> Automatically Column Will Updated.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(165).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(166).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(167).png)
+
+## Transformation: 21
+
+## Text and Numeric Combined column:
+
+Land the Power Query >> Select the table >> Click the custom Column >> Write the Codition "Text.Select([Id Proof], {"0".."9"})" >> Click OK >> Automatically Column Will Updated.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(168).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(169).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(170).png)
+
+## Transformation: 22
+
+## created Day&date Column help from Date Column:
+
+Land the Power Query >> Select the table >> Click the custom Column >> Write the Codition "  " >> Click OK >> Automatically Column Will Updated.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(171).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(172).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(173).png)
+
+## Transformation: 23
+
+## Created Calculated Conditional column vs Replace the value:
+
+Land the Power Query >> Select the table >> Click the conditional Column >> Write the Codition >> Click OK >> Automatically Column Will Updated.
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(174).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(175).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(175).png)
+
+## Transformation: 24
+
+## Query Dependency:
+
+Land the Power Query >> Select the table >> Click the view >> click the Query Dependency >> Click OK >> Automatically Column Will Updated >> You can See Hirarchkey Over Here
+
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(176).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(177).png)
+![image](https://github.com/vamsikrishna-boss/ETL-in-Power-BI/blob/main/example%20pictures/Screenshot%20(178).png)
+
+
+
+
+
 
 
 
